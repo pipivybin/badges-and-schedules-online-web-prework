@@ -15,4 +15,5 @@ end
 
 def printer(arr)
   batch_badge_creator(arr).each {|name| puts name}
+  assign_rooms(arr).each {|name| puts name}
 end
